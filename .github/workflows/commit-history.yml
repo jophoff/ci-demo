@@ -1,0 +1,21 @@
+name: Print commit history to file
+
+on: push
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+        
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    
+    - name: Print to file
+      run: |
+        git log --oneline > CommitHistory.txt
+        git config --global user.email "actions@users.noreply.github.com"
+        git config --global user.name "print"
+        git add CommitHistory.txt
+        git commit -m "CommitHistory.txt updated using GitHub Actions"
+        git push
