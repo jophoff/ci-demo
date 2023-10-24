@@ -1,0 +1,11 @@
+235272a Update commit-history.yml
+0798b8a Update commit-history.yml
+532e9c5 Create commit-history.yml
+08b115e Merge branch 'main' of https://github.com/jophoff/ci-demo
+67d978e Implemented method
+02ed7bf Update README.md
+57c32aa Create build-and-test.yml
+6542061 Added project
+2ebcecd Update README.md
+533d6df Create blank.yml
+557505e Initial commit
