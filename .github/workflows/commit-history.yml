@@ -2,6 +2,9 @@ name: Print commit history to file
 
 on: push
 
+permissions:
+  contents: write
+
 jobs:
   print:
     runs-on: ubuntu-latest
