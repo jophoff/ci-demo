@@ -1,3 +1,5 @@
+9c04ba1 Update build-and-test.yml
+911a09b CommitHistory.txt updated using GitHub Actions
 c586f22 Added comment
 48f702e CommitHistory.txt updated using GitHub Actions
 235272a Update commit-history.yml
